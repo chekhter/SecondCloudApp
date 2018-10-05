@@ -1,0 +1,23 @@
+{
+  "name": "mysecondweb",
+  "version": "1.0.0",
+  "description": "My Second Web",
+  "main": "./resources/index.html",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MySecondWeb"
+  },
+  "keywords": ["My second web", "Second web", "Second"],
+  "author": "Kirill Chekhter",
+  "license": "ISC",
+  "engines": {
+    "node": "6.x.x"
+  },
+  "dependencies": {
+    "@sap/approuter": "^5.6.3"
+  }
+}

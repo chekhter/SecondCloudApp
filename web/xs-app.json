@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "source": "^/pathtosecondapp/(.*)$",
+      "target": "$1",
+      "destination": "my_second_app"
+    }
+  ]
+}

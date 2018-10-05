@@ -1,0 +1,26 @@
+{
+  "name": "mysecondapp",
+  "version": "1.0.0",
+  "description": "My Second App",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MySecondApp"
+  },
+  "keywords": ["My Second App", "Second App", "Second"],
+  "author": "Kirill Chekhter",
+  "license": "ISC",
+  "engines": {
+    "node": "6.x.x"
+  },
+  "dependencies": {
+    "@sap/xssec": "^2.1.15",
+    "express": "^4.16.3",
+    "passport": "^0.4.0"
+  }
+}
